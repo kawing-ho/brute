@@ -33,7 +33,7 @@ while True:	#forever and ever and ever and ever ...
 		p += wordstr[index]
 		
 	#print the string
-	print counters,"\t",p
+	print p
 	
 	#increase the counter  (current will always be counters[-1])
 	counters[-1] += 1
