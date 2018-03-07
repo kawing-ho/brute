@@ -1,6 +1,6 @@
 # brute
 - _gotta go fast_ 
-- Wrote it in < 5 hours
+- Wrote it in ≃ 5 hours
 - Any suggestions on improving it welcome
 
 
