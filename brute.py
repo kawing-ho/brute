@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #enumerate and print until told to stop
 
+# main comment
+
 wordstr = "abcdefghijklmnopqrstuvwxyz0123456789" #/Change as necessary/
 l = len(wordstr)
 counters = [0]
