@@ -2,6 +2,7 @@
 #enumerate and print until told to stop
 
 # test commit stay
+# right split
 
 wordstr = "abcdefghijklmnopqrstuvwxyz0123456789" #/Change as necessary/
 l = len(wordstr)
