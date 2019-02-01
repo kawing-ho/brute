@@ -38,4 +38,3 @@ while True:	#forever and ever and ever and ever ...
 	
 	#increase the counter  (current will always be counters[-1])
 	counters[-1] += 1
-	
