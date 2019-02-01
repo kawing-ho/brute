@@ -1,8 +1,6 @@
 #!/usr/bin/python
 #enumerate and print until told to stop
 
-# test commit stay
-# right split
 
 wordstr = "abcdefghijklmnopqrstuvwxyz0123456789" #/Change as necessary/
 l = len(wordstr)
@@ -41,4 +39,3 @@ while True:	#forever and ever and ever and ever ...
 	#increase the counter  (current will always be counters[-1])
 	counters[-1] += 1
 	
-   # testing commit
