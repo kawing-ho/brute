@@ -1,8 +1,15 @@
-#!/usr/bin/python
-#enumerate and print until told to stop
+#!/usr/bin/env python3
 
-# test commit stay
-# right split
+# Enumerate and print until told to stop
+# wordstr is the list of characters to enumerate
+# counters is the initial number to start with ie. a vs aaaa
+
+
+# Threads:
+# 1) threads handle I/O
+# 2) master thread handles ranges from threads to print
+# 3) master generates and put line into q, workers get and print from q
+
 
 wordstr = "abcdefghijklmnopqrstuvwxyz0123456789" #/Change as necessary/
 l = len(wordstr)
@@ -36,9 +43,8 @@ while True:	#forever and ever and ever and ever ...
 		p += wordstr[index]
 		
 	#print the string
-	print p
+	print(p)
 	
 	#increase the counter  (current will always be counters[-1])
 	counters[-1] += 1
 	
-   # testing commit
